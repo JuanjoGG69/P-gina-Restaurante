@@ -72,9 +72,23 @@
                     <li><a href="#slide5"></a></li>
                     <li><a href="#slide6"></a></li>
                 </ul>
-   
-           
+            </div>
+
+            <section class="descripcion">
+                <p>Este restaurante es un bar de tapeo situado en la localidad de Almería y usted podrá disfrutar de numerosas comidas ricas
+                    también tenemos platos veganos y vegetarianos para la gente vegana y vegetariana.
+                </p>
+            </section>
+
         </main>
+
+        <footer>
+            <ul class="contacto">
+                <li><a href="https://www.instagram.com/grupocosentino/"><i class="fa-brands fa-instagram"></i>cuentaPrueba</i></a></li>
+                <li><a href="https://www.facebook.com/GrupoCosentino/"><i class="fa-brands fa-facebook"></i> cuentaPrueba</a></li>
+                <li><a href="php/contacto.php"><i class="fa-solid fa-envelope"></i>Contáctanos</a></li>
+            </ul>
+        </footer>
 
         <script src="js/menu.js"></script>
     </body>

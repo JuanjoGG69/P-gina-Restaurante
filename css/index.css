@@ -56,6 +56,7 @@ h1{
     margin-left: -7em;
     margin-top: -100%;
     opacity: 0.9;
+    z-index: 10;
 }
 
 .item__accion a{
@@ -75,10 +76,15 @@ h1{
 
 /* -------------------------------------------MAIN------------------------------------------*/
 
+main{
+    background-color: #66B9BF;
+}
+
+/* SLIDER */
 .container__slider{
     margin: auto;
     width: 1000px;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .slider, .slider__menu, .slider li{
@@ -132,7 +138,7 @@ h1{
     display: inline-block;
     color: white;
     text-decoration: none;
-    background-color: grey;
+    background-color: #F4F4F4;
     padding: 10px;
     border-radius: 100%;
     transform: scale(0.6);
@@ -141,3 +147,48 @@ h1{
 .slider__menu li a:hover{
     transform: scale(1.01);
 }
+
+.descripcion{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    color: #373737;
+    padding-bottom: 50px;
+}
+
+.descripcion p{
+    font-size: 20px;
+}
+
+/*_______________________________________________FOOTER________________________________________ */
+
+footer{
+    background-color: #373737;
+    width: 100%;
+    height: 10vh;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+}
+
+.contacto li{
+    margin: auto;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1.2em;
+}
+
+.contacto li a{
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.contacto li a i{
+    margin: 4px;
+    color: #F4F4F4;
+}
+
