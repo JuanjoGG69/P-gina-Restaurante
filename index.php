@@ -19,7 +19,7 @@
                 <nav class="nav-container">
                     <i class="fa-solid fa-bars" id="btnmenu"></i>
                     <ul class="nav-container__item" id="menu">
-                        <li class="item__accion"><a href="#">Entrantes</a></li>
+                        <li class="item__accion"><a href="php/entrantes.php">Entrantes</a></li>
                         <li class="item__accion"><a href="#">Platos de carne</a></li>
                         <li class="item__accion"><a href="#">Platos de pescado</a></li>
                         <li class="item__accion"><a href="#">Platos veganos</a></li>
